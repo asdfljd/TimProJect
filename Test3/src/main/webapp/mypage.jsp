@@ -27,11 +27,7 @@
 				rs=stmt.executeQuery(sql);
 				
 				System.out.println("에 들어가신다.");
-				System.out.println("되나..?");
-				System.out.println("되나..?222");
-				System.out.println("되나여?33");
-				System.out.println("브렌치 노선을 잘 못 찾았는데, 되나");
-				System.out.println("되긴 뭐가 돼 더 망했자나");
+				System.out.println("잘연결됐나모르겠다");
 			
 		%>
 			<div id="wrap">
