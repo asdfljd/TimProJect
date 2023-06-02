@@ -36,7 +36,7 @@
             <div class="contents">
                 <div class="contents_1">
                     <div class="car">
-                        <a href="#">
+                        <a href="mock.jsp">
                             <img src="images/car.png" alt="모의고사">
                             <span>모의고사 40제</span>
                         </a>

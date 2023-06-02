@@ -35,6 +35,7 @@
 			rs=stmt.executeQuery(sql);
 			
 			while(rs.next()){
+				String st_sq=rs.getString("user_seq");
 				String st_id=rs.getString("user_id");
 				String st_pw=rs.getString("user_password");
 				String st_name=rs.getString("user_name");
@@ -42,6 +43,7 @@
 				
 				if(id.equals(st_id) && pw.equals(st_pw)){
 					System.out.println("로그인 성공!");
+					session.setAttribute("user_seq", st_sq);
 					session.setAttribute("user_id",st_id);
 					session.setAttribute("user_password",st_pw);
 					session.setAttribute("login",true);
@@ -55,6 +57,10 @@
 				}
 				
 			}
+				
+				
+				
+			
 			
 		}catch(Exception e){
 			System.out.println("login.jsp 접속중 오류 발생"+e);
@@ -68,6 +74,7 @@
 			}
 		}
 		//세션내 정보 확인
+		System.out.println("세션내 데이터 확인");
 		System.out.println(session.getAttribute("user_id"));
 		System.out.println(session.getAttribute("user_password"));
 		System.out.println(session.getAttribute("login"));
@@ -76,5 +83,10 @@
 		
 	
 	%>
+	<script>
+		function a(){
+			alert("다시 입력하여주시기 바랍니다.");
+		}
+	</script>
 	</body>
 </html>

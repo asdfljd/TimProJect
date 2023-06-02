@@ -10,6 +10,7 @@
 		<%
 			session.invalidate();
 			response.sendRedirect("index.jsp");
+			System.out.println("로그아웃 성공!");
 		%>
 	</body>
 </html>

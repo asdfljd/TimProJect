@@ -54,7 +54,7 @@
                 			<h3><% out.println(session.getAttribute("user_name"));%>님 환영합니다.</h3>
                 			<h3><% out.println(session.getAttribute("user_id"));%>계정으로 로그인이 되었습니다.</h3>
                 			<h3><% out.println(session.getAttribute("user_tel"));%>로 전화가 갈 수 있습니다. 주의하세요</h3>
-                			<a href="onebyone.jsp"><input type="button">문제풀러가자 </a>
+                			<a href="menu.jsp"><input type="button">문제풀러가자 </a>
 							<input type="button" value="로그아웃!" onclick="logout()">
 						<% } %>	
                 </div>
