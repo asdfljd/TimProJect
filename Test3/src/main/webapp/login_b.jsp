@@ -86,7 +86,7 @@
 	<script>
 		function a(){
 			alert("다시 입력하여주시기 바랍니다.");
-		}
+	
 	</script>
 	</body>
 </html>

@@ -16,22 +16,7 @@
                     <li><a href="#">오답노트</a></li>
                     <li><a href="#">마이 페이지</a></li>
                 </ul>
-                <!--<div class="pyo">
-                    <img src="images/arrow.png" alt="arrow">
-                </div>
-                <ul class="menu_expended_1">
-                    <li><a href="#">대형</a></li>
-                    <li><a href="#">보통</a></li>
-                    <li><a href="#">소형</a></li>
-                    <li><a href="#">특수</a></li>
-                    <li><a href="#">|</a></li>
-                </ul>
                 
-                <ul class="menu_expended_2">
-                    <li><a href="#">보통</a></li>
-                    <li><a href="#">소형</a></li>
-                    <li><a href="#">원동기장치자전거 면허</a></li>
-                </ul>-->
             </div>
             <div class="contents">
                 
@@ -100,22 +85,10 @@
                         40
                     </div>
                 </div>
-                    <!--<div>
-                        <a href="#">로그인</a>
-                    </div>
-                    <div>
-                        <a href="#">아이디 찾기</a>
-                    </div>
-                    <div>
-                        <a href="#">비밀번호 찾기</a>
-                    </div>
-                    <div>
-                        <a href="#">회원가입</a>
-                    </div>-->
+                    
                 
             </div>
-            <!--<div class="side">
-            </div>-->
+            
             <div class="footer">
             </div>
         </div>
