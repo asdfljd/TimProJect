@@ -12,26 +12,41 @@
         <div id="wrap">
             <div class="header">
                 <ul class="menu">
-                    <li><a href="information.jsp">시험안내</a><li>
+                    <li><a href="information.jsp">시험안내</a></li>
                     <li><a href="#">오답노트</a></li>
                     <li><a href="#">마이 페이지</a></li>
                 </ul>
+                <!--<div class="pyo">
+                    <img src="images/arrow.png" alt="arrow">
+                </div>
+                <ul class="menu_expended_1">
+                    <li><a href="#">대형</a></li>
+                    <li><a href="#">보통</a></li>
+                    <li><a href="#">소형</a></li>
+                    <li><a href="#">특수</a></li>
+                    <li><a href="#">|</a></li>
+                </ul>
                 
+                <ul class="menu_expended_2">
+                    <li><a href="#">보통</a></li>
+                    <li><a href="#">소형</a></li>
+                    <li><a href="#">원동기장치자전거 면허</a></li>
+                </ul>-->
             </div>
             <div class="contents">
                 
                 <div class="many">
-                    <div class="fourty">
+                    <!--<div class="fourty">
                             총 40문제/40분
-                    </div>
+                    </div>-->
                     <div class="contents_1">
                         드래그로 보기
                     </div>
                     <div class="stopWatch">
                         <div class="time">
-                        0분 0초
+                            
                         </div>
-                        <div class="start">
+                        <!--<div class="start">
                             시작
                         </div>
                         <div class="end">
@@ -39,10 +54,10 @@
                         </div>  
                         <div class="toZero">
                             초기화
-                        </div>
+                        </div>-->
                     </div>
                     <div class="problem_group">
-                        <div class="number">
+                        <div class="number" name="">
                             문제번호/
                         </div>
                         <div class="problem">
@@ -85,12 +100,25 @@
                         40
                     </div>
                 </div>
-                    
+                    <!--<div>
+                        <a href="#">로그인</a>
+                    </div>
+                    <div>
+                        <a href="#">아이디 찾기</a>
+                    </div>
+                    <div>
+                        <a href="#">비밀번호 찾기</a>
+                    </div>
+                    <div>
+                        <a href="#">회원가입</a>
+                    </div>-->
                 
             </div>
-            
+            <!--<div class="side">
+            </div>-->
             <div class="footer">
             </div>
         </div>
     </body>
+   
 </html>
