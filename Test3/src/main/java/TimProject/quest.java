@@ -83,12 +83,12 @@ public class quest {
 	public void setQuest_image(Object quest_image) {
 		this.quest_image = quest_image;
 	}
-	public Object getQuest_video() {
-		return quest_video;
-	}
-	public void setQuest_video(Object quest_video) {
-		this.quest_video = quest_video;
-	}
+//	public Object getQuest_video() {
+//		return quest_video;
+//	}
+//	public void setQuest_video(Object quest_video) {
+//		this.quest_video = quest_video;
+//	}
 	public int getQuest_point() {
 		return quest_point;
 	}
