@@ -11,29 +11,9 @@
         <script src="js/script2.js"></script>
     </head>
     <body>
-        <div id="wrap">
-            <div class="header">
-                <ul class="menu">
-                    <li><a href="information.jsp">시험안내</a></li>
-                    <li><a href="#">오답노트</a></li>
-                    <li><a href="#">마이 페이지</a></li>
-                </ul>
-                <!--<div class="pyo">
-                    <img src="images/arrow.png" alt="arrow">
-                </div>
-                <ul class="menu_expended_1">
-                    <li><a href="#">대형</a></li>
-                    <li><a href="#">보통</a></li>
-                    <li><a href="#">소형</a></li>
-                    <li><a href="#">특수</a></li>
-                    <li><a href="#">|</a></li>
-                </ul>
-                
-                <ul class="menu_expended_2">
-                    <li><a href="#">보통</a></li>
-                    <li><a href="#">소형</a></li>
-                    <li><a href="#">원동기장치자전거 면허</a></li>
-                </ul>-->
+        
+                <jsp:include page="header.jsp"></jsp:include>
+               
             </div>
             <div class="contents">
                 
@@ -61,26 +41,26 @@
                             문제번호/
                         </div>
                         <div class="problem">
-                            문제
+                            ${quest_script }
                         </div>
                     </div>
                 </div>
                 <div class="example">
                     
                     <div class="one">
-                        1. 보기
+                    	1. ${sessionScope.quest_ex1 } 
                     </div>
                     <div class="two">
-                        2. 보기
+                   		2.  ${quest_ex2 }
                     </div>
                     <div class="three">
-                        3. 보기
+                        3. ${quest_ex3 }
                     </div>
                     <div class="four">
-                        4. 보기
+                        4. ${quest_ex4 }
                     </div>
                     <div class="five">
-                        5. 보기
+                        5. ${quest_ex5 }
                     </div>
                 </div>
                 <div class="la">
@@ -100,24 +80,10 @@
                         40
                     </div>
                 </div>
-                    <!--<div>
-                        <a href="#">로그인</a>
-                    </div>
-                    <div>
-                        <a href="#">아이디 찾기</a>
-                    </div>
-                    <div>
-                        <a href="#">비밀번호 찾기</a>
-                    </div>
-                    <div>
-                        <a href="#">회원가입</a>
-                    </div>-->
+                    <jsp:include page="find.jsp"></jsp:include>
                 
             </div>
-            <!--<div class="side">
-            </div>-->
-            <div class="footer">
-            </div>
+            
         </div>
     </body>
    

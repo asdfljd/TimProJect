@@ -1,3 +1,4 @@
+/*<<<<<<< HEAD*/
 @charset "utf-8";
 *{
     list-style:none;
@@ -7,9 +8,11 @@
     font-size:30px;
     /*background-color:red;*/
 }
+
+
 #wrap{
     width:1200px;
-	
+
     margin:0 auto;
 }
 .chu{
@@ -34,25 +37,6 @@
     position:relative;
     left:200px;
 }
-.boon{
-	float:left;
-	width: 50px;
-    height: 50px;
-    display:inline-block;
-	margin:0px;
-	
-	position: relative;
-    left: -116px;
-
-}
-.cho{
-	float:left;
-	    width: 50px;
-    height: 50px;
-    display:inline-block;
-        position: relative;
-    left: -76px;	
-}
 .guide_1 img{
     width:1200px;
 }
@@ -68,6 +52,32 @@
     color:white;
     font-weight:bold;
 }
+th{
+    display:block;
+    border-radius:15px;
+    background-color:gray;
+    margin-top:30px;
+
+    color:white;
+    margin-right:350px; 
+    height:50px;
+      width: 200px;
+      margin-left:300px;
+}
+td{
+	
+    display: block;
+    margin-top: 40px;
+    position: relative;
+    top: -506px;
+    left: 550px;
+}
+
+table{
+    margin:0 auto;
+
+}
+
 .header{
     width:1200px;
     height:200px;
@@ -159,9 +169,7 @@ float:left;
     float:left;
     margin-left:100px;
     text-align:center;
-    height: 50px;	
-	position: relative;
-    left: 31px;	
+    height: 50px;
 }
 .start{
     width:100px;
@@ -389,4 +397,5 @@ border-radius: 10px;
 }
 .menu> li:hover{
     background-color:rgb(223, 241, 131);
+/*=======*/
 }
